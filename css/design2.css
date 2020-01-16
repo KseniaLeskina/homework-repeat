@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+   
+    
+}
+    @font-face {
+        font-family: "Nunito Sans";
+        src: url('../fonts/Nunito_Sans.woff'),
+            url('../fonts/Nunito_Sans.ttf');
+      }
+      @font-face {
+        font-family: "Yeseva One";
+        src: url('../fonts/Yeseva_One.woff'),
+            url('../fonts/Yeseva_One.ttf');
+    
+}
+body * {
+    box-sizing: border-box;
+}
+.wpapper {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.button, .calculate, .submit {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: 13px 33px;
+    color: white;
+    text-transform: uppercase;
+}
+.calculate, .submit {
+    padding: 19px 20px;
+}
+.calculate {
+    margin-right: 20px;
+}
+.submit {
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #FFFFFF;
+}
+
+.logo{
+    color: #E3B873;
+}
+.header {
+    background-color: black;
+   }
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center; 
+}
+.header-navigation, .sectiontwoul {
+    list-style: none;
+    display: flex;
+}
+.header-navigation__item {
+    margin-right: 47px;
+}
+.header-navigation__itemtel {
+    text-decoration: underline;
+    
+}
+.header-navigation__item {
+    text-decoration: none;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;  
+}
+.hero {
+    background-image: url("../images/image 4.3.png");
+    background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+    position: relative;
+}
+.hero-overlay {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+.hero-container {
+    position: relative;
+    z-index: 1;
+}
+.title, .sectiontwoul {
+    margin: 0;
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+span {
+    color: #E3B873;
+}
+p {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;    
+}
+.sectiontwo {
+    background-color: black;
+    
+}
+.sectiontwoul {
+    font-size: 14px;
+    line-height: 19px;
+    color: #E3B873;
+    
+}
+.sectiontwoli {
+   
+}
+.chairs {
+    float: right;
+    
+}
