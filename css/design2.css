@@ -5,13 +5,13 @@ body {
 }
     @font-face {
         font-family: "Nunito Sans";
-        src: url('/../fonts/Nunito_Sans.woff'),
-            url('/../fonts/Nunito_Sans.ttf');
+        src: url('../fonts/fonts/Nunito_Sans.woff'),
+            url('../fonts/fonts/Nunito_Sans.ttf');
       }
       @font-face {
         font-family: "Yeseva One";
-        src: url('../fonts/Yeseva_One.woff'),
-            url('../fonts/Yeseva_One.ttf');
+        src: url('../fonts/fonts/Yeseva_One.woff'),
+            url('../fonts/fonts/Yeseva_One.ttf');
     
 }
 body * {
@@ -51,7 +51,7 @@ body * {
 }
 .header {
     background-color: black;
-   }
+    }
 .header-content{
     display: flex;
     justify-content: space-between;
@@ -59,7 +59,7 @@ body * {
     align-items: center; 
     font-size: 11px;
     line-height: 15px;
-    
+    font-family: "Nunito Sans";
 }
 .header-navigation, .sectiontwoul {
     list-style: none;
