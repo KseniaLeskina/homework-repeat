@@ -22,7 +22,7 @@ body * {
     margin: 0 auto;
 }
 
-.button, .calculate, .submit {
+.button, .calculate, .submit-button, .from, .submit-button_form {
     background: #E3B873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     border-radius: 2px;
@@ -41,8 +41,9 @@ body * {
     margin-left: 135px;
 }
 .submit {
-    background: rgba(0, 0, 0, 0);
+    background-color: transparent;
     border: 1px solid #FFFFFF;
+    color: white;
 }
 
 .logo{
@@ -105,7 +106,7 @@ a:hover {
     position: relative;
     z-index: 1;
 }
-.title, .sectiontwoul, .completed, .tablerow {
+.title, .sectiontwoul, .completed, .tablerow, .online, .h4, .from-div, .figure {
     margin: 0;
     font-family: "Yeseva One";
     font-style: normal;
@@ -122,7 +123,7 @@ a:hover {
 span {
     color: #E3B873;
 }
-.herop, .sectiontwop, .textrow {
+.herop, .sectiontwop, .textrow, .camera-girl_text, .label, .checkbox, .redecorating-div_ul-li, input, .raduis-p {
     font-family: "Nunito Sans";
     font-style: normal;
     font-weight: normal;
@@ -133,6 +134,7 @@ span {
 }
 .sectiontwo {
     background-color: black;
+    
 }
 .completed {
     font-size: 27px;
@@ -202,7 +204,197 @@ margin-left: 135px;
     padding-left: 10px;
     font-size: 30px;
 }
-.sectiononline-control {
-  margin-top: -25%;
+.section-online_control {
+  margin-top: -35%;
+}
+.online, .online-1 {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 72px;
+    }
+.camera, .instrument  {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: -55px;
+    margin-left: 630px;
+}
+.girl {
+    margin-top: 31px;
+    margin-left: 311px;
+    }
+.camera-girl {
+    margin-top: 63px;
+    margin-left: 690px;
+}
+.camera-girl_text {
+    font-size: 18px;
+    text-align: center;
+    color: #363636;
+}
+.form {
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+flex-basis: 10%;
+
+margin: 90px 333px;
+}
+.form-div_input {
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    font-size: 14px;
+    line-height: 23px;
+    color: #363636;
+    margin-left: 0px;
+}
+.form-div {
+padding: 58px;
+}
+.label {
+font-size: 13px;
+line-height: 21px;
+color: rgba(54, 54, 54, 0.5);
+text-align: left;
+}
+.submit-button {
+   padding: 20px 76px;
+}
+.checkbox {
+text-align: center;
+font-size: 14px;
+line-height: 23px;
+color: #363636;
+margin: 0px;
+}
+.TYPES-OF_REPAIR {
+   margin-top: 76px;
+   
+}
+.online-1 {
+    color: black;
+}
+.box-TYPES-OF_REPAIR{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.redecorating-div, .Overhaul-div, .Designer-Repair_div  {
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    margin: -200px auto 0;
+    position: relative;
+    z-index: 1;
+    width: 330px;
+    height: 286px;
+   flex-direction: column;
+}
+.h4 {   
+text-transform: none;
+font-size: 18px;
+line-height: 25px;
+color: #363636;
+padding-top: 25px;
+padding-left: 34px;
+
+}
+.redecorating-div_ul-li {
+margin-left: 0px;
+font-size: 13px;
+line-height: 27px;
+color: #959595;
+
+}
+.from {
+width: 230px;
+height: 60px;
+position: relative;
+z-index: 4;
+margin-left: 35px;
+}
+.from-div {
+font-size: 15px;
+line-height: 25px;
+padding-top: 7px;
+float: right;
+}
+.radius {
+}
+.box-form {
+    margin-top: 124px;
+}
+.box {
+    
+    margin-left: 350px;
+    margin-top: -500px;
 }
 
+
+.radius-figure {
+    width: 42px;
+    height: 42px;
+    background: #E3B873;
+    border: 8px solid #FFFFFF;
+    box-shadow: 0px 5px 15px #E3B873;
+    border-radius: 30px;
+    margin-bottom: 95px;
+    margin-top: 0px;
+    
+    }
+.figure {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: none;
+}
+   
+.raduis-p {
+    font-size: 14px;
+    line-height: 19px;
+    color: #363636;
+    margin-left: 0px;
+}
+.box-form_radius {
+    width: 509px;
+    height: 506px;
+    background: #131313;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+    float: right;
+    margin-top: -77%;
+    
+}
+.box-form_radius_p, .box-form_radius-label, .checkbox {
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #FFFFFF;
+}
+.box-form_radius-label{
+    font-size: 13px;
+    line-height: 21px;
+    text-align: left;
+    margin-left: 49px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.box-form_radius-input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+    background: #131313;
+    text-align: left;
+    margin-left: 49px;
+}
+.checkbox {
+    margin-top: 18px;
+}
