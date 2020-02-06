@@ -132,6 +132,11 @@ span {
     color: #FFFFFF;  
     margin-left: 135px;  
 }
+.checkbox-label {
+    font-size: 14px;
+    color: #181818;
+    
+}
 .sectiontwo {
     background-color: black;
     
@@ -280,13 +285,16 @@ margin: 0px;
 }
 .box-TYPES-OF_REPAIR{
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-around;
+}
+.redecorating, .Overhaul, .Designer-Repair {
+   
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
 }
 .redecorating-div, .Overhaul-div, .Designer-Repair_div  {
     background: #FFFFFF;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
-    margin: -200px auto 0;
+    margin: -130px auto 0;
     position: relative;
     z-index: 1;
     width: 330px;
@@ -367,7 +375,7 @@ float: right;
     margin-top: -77%;
     
 }
-.box-form_radius_p, .box-form_radius-label, .checkbox {
+.box-form_radius_p, .box-form_radius-label, .checkbox, .sale-p, .our_clients-p {
 font-family: Nunito Sans;
 font-style: normal;
 font-weight: normal;
@@ -397,4 +405,65 @@ color: #FFFFFF;
 }
 .checkbox {
     margin-top: 18px;
+}
+.checkbox-label_i {
+    color: white;
+    
+}
+.sale, .sale-div {
+   display: flex;
+   float: right;
+   margin-top: -15%;
+   
+   
+}
+.sale-div {
+    color: #E3B873;
+    margin-right: 60px;
+}
+.our_clients-p {
+   color: #363636;
+   
+}
+.our_clients-div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.Fedosova, .Afanasyev, .Kiriev {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+    text-align: left;
+}
+.Fedosova-img {
+    border-radius: 100%;
+    
+    
+    
+}
+.Fedosova-h4 {
+font-family: Yeseva One;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+color: #181818;
+display: inline-block;
+margin-left: 40px;
+}
+.Fedosova-p {
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 23px;
+color: #959595;
+text-transform: lowercase;
+padding-left: 20px;
+padding-right: 31px;
+
+}
+.Fedosova-Group {
+ margin-left: 0px;
+ margin-top: 63px;  
 }
