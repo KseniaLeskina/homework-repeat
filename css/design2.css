@@ -18,11 +18,11 @@ body * {
     box-sizing: border-box;
 }
 .wrapper {
-    max-width: 1250px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
-.button, .calculate, .submit-button, .from, .submit-button_form {
+.button, .calculate, .submit-button, .from, .submit-button_form, .submit-button, .submit-button_end {
     background: #E3B873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     border-radius: 2px;
@@ -50,7 +50,7 @@ body * {
     color: #E3B873;
     
 }
-.header {
+.header, .footer {
     background-color: black;
     }
 .header-content{
@@ -106,7 +106,7 @@ a:hover {
     position: relative;
     z-index: 1;
 }
-.title, .sectiontwoul, .completed, .tablerow, .online, .h4, .from-div, .figure {
+.title, .sectiontwoul, .completed, .tablerow, .online, .h4, .from-div, .figure, .form_end_p {
     margin: 0;
     font-family: "Yeseva One";
     font-style: normal;
@@ -210,7 +210,7 @@ margin-left: 135px;
     font-size: 30px;
 }
 .section-online_control {
-  margin-top: -35%;
+  margin-top: -374px;
 }
 .online, .online-1 {
     font-size: 20px;
@@ -376,7 +376,7 @@ float: right;
     
 }
 .box-form_radius_p, .box-form_radius-label, .checkbox, .sale-p, .our_clients-p {
-font-family: Nunito Sans;
+font-family: "Nunito Sans";
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
@@ -391,7 +391,7 @@ color: #FFFFFF;
     margin-left: 49px;
     color: rgba(255, 255, 255, 0.5);
 }
-.box-form_radius-input {
+.box-form_radius-input, .form-end_input {
     border-top: none;
     border-left: none;
     border-right: none;
@@ -421,6 +421,7 @@ color: #FFFFFF;
     color: #E3B873;
     margin-right: 60px;
 }
+
 .our_clients-p {
    color: #363636;
    
@@ -429,6 +430,7 @@ color: #FFFFFF;
     display: flex;
     justify-content: space-around;
     margin-top: 40px;
+    
 }
 .Fedosova, .Afanasyev, .Kiriev {
     background: #FFFFFF;
@@ -442,7 +444,7 @@ color: #FFFFFF;
     
 }
 .Fedosova-h4 {
-font-family: Yeseva One;
+font-family: "Yeseva One";
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
@@ -452,7 +454,7 @@ display: inline-block;
 margin-left: 40px;
 }
 .Fedosova-p {
-font-family: Nunito Sans;
+font-family: "Nunito Sans";
 font-style: normal;
 font-weight: normal;
 font-size: 13px;
@@ -466,4 +468,78 @@ padding-right: 31px;
 .Fedosova-Group {
  margin-left: 0px;
  margin-top: 63px;  
+}
+.end {
+    
+}
+.form-end {
+    width: 883px;
+    height: 445px;
+    background-color: black;
+    margin-left: 288px;
+    margin-top: 132px;
+    
+}
+.form_end-div {
+    margin-top: 45px;
+    margin-left: 181px;
+}
+.form_end_p {
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+padding-top: 34px;
+}
+.form_end-label, .form-end_input, .checkbox-end {
+font-family: "Nunito Sans"; 
+font-weight: normal;
+font-size: 13px;
+line-height: 21px;
+color: rgba(255, 255, 255, 0.5);
+}
+.form-end_input, .checkbox-end {
+font-size: 14px;
+line-height: 23px;
+color: none;
+}
+.checkbox-end {
+    margin-top: 48px;
+    margin-left: 150px;
+}
+.submit-button_end {
+    width: 200px;
+    height: 51px;
+    
+}
+.form-div-end {
+    margin-top: 40px;
+    margin-left: 341px;
+}
+.section-div_end {
+    margin-top: -350px;
+    position: relative;
+    z-index: -1;
+    background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
+}
+.section-div_end-p {
+font-family: "Yeseva One";
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+color: #E3B873;
+margin-top: 52px;
+}
+.section-div_end-img {
+    margin-top: 26px;
+    text-align: center;
+}
+.map {
+    margin-top: -580px;
+    margin-left: 260px;
+}
+.footer {
+    margin-top: 68px;
 }
