@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
    
     
 }
@@ -17,7 +18,8 @@ body {
 body * {
     box-sizing: border-box;
 }
-.wrapper {
+
+.wrapper, section {
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -31,9 +33,14 @@ body * {
     padding: 13px 33px;
     color: white;
     text-transform: uppercase;
+    cursor: pointer;
+}
+.from {
+    cursor: default;
 }
 .calculate, .submit {
     padding: 19px 20px;
+    cursor: pointer;
     
 }
 .calculate {
@@ -82,7 +89,7 @@ a {
     text-decoration: none;
     color: white;  
 }
-a:hover {
+a:hover{
     color: #E3B873;
     text-decoration: underline;
     }
@@ -117,6 +124,7 @@ a:hover {
     color: #FFFFFF;
 }
 
+
 .title {
     margin-left: 135px;  
 }
@@ -139,6 +147,7 @@ span {
 }
 .sectiontwo {
     background-color: black;
+   
     
 }
 .completed {
@@ -167,6 +176,7 @@ margin-right: 60px;
     text-align: right;
     margin-top: 107px;
     margin-right: 60px;
+    
 }
 .chairs {
    float: right;
@@ -186,7 +196,10 @@ margin-left: 135px;
     line-height: 25px;
     text-align: left;
     color: #E3B873;
-    
+}
+th {
+    padding-right: 34px;
+    padding-bottom: 24px;
 }
 .textrow {
    color: white;
@@ -221,10 +234,9 @@ margin-left: 135px;
 .camera, .instrument  {
     display: flex;
     align-items: center;
-    text-align: center;
     margin-bottom: 25px;
     margin-top: -55px;
-    margin-left: 630px;
+    margin-left: 680px;
 }
 .girl {
     margin-top: 31px;
@@ -244,7 +256,6 @@ display: flex;
 flex-direction: row;
 align-items: flex-end;
 flex-basis: 10%;
-
 margin: 90px 333px;
 }
 .form-div_input {
@@ -264,13 +275,12 @@ padding: 58px;
 font-size: 13px;
 line-height: 21px;
 color: rgba(54, 54, 54, 0.5);
-text-align: left;
+
 }
 .submit-button {
    padding: 20px 76px;
 }
 .checkbox {
-text-align: center;
 font-size: 14px;
 line-height: 23px;
 color: #363636;
@@ -289,7 +299,7 @@ margin: 0px;
 }
 .redecorating, .Overhaul, .Designer-Repair {
    
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+   /*box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);*/
 }
 .redecorating-div, .Overhaul-div, .Designer-Repair_div  {
     background: #FFFFFF;
@@ -330,50 +340,67 @@ line-height: 25px;
 padding-top: 7px;
 float: right;
 }
-.radius {
-}
 .box-form {
     margin-top: 124px;
+    display: flex;
+    justify-content: space-between;
 }
 .box {
-    
-    margin-left: 350px;
-    margin-top: -500px;
-}
+background: url("../images/image6.1.png");
+width: 603px;
+height: 645px;
 
-
-.radius-figure {
-    width: 42px;
-    height: 42px;
-    background: #E3B873;
-    border: 8px solid #FFFFFF;
-    box-shadow: 0px 5px 15px #E3B873;
-    border-radius: 30px;
-    margin-bottom: 95px;
-    margin-top: 0px;
-    
-    }
-.figure {
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
-    text-transform: none;
 }
-   
-.raduis-p {
+.box-ul {
+list-style: none;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: #363636;
+padding-top: 60px;
+padding-left: 320px;
+}
+.box-ol_li {
+    padding: 40px;
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: normal;
     font-size: 14px;
     line-height: 19px;
-    color: #363636;
-    margin-left: 0px;
+   color: #363636;
+}
+.box-span {
+background: #E3B873;
+border: 8px solid #FFFFFF;
+box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+border-radius: 50%;
+font-family: 'Yeseva One';
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+width: 41px;
+height: 41px;
+padding: 5px;
+margin-right: 14px;
+}
+
 }
 .box-form_radius {
     width: 509px;
     height: 506px;
-    background: #131313;
+    background-color: #131313;
     box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
-    float: right;
-    margin-top: -77%;
-    
+}
+.checkbox-div {
+    margin-top: 17px;
+}
+.submit-button_form {
+    padding: 19px 22px;
+    margin-left: 200px;
 }
 .box-form_radius_p, .box-form_radius-label, .checkbox, .sale-p, .our_clients-p {
 font-family: "Nunito Sans";
@@ -404,7 +431,7 @@ color: #FFFFFF;
     margin-left: 49px;
 }
 .checkbox {
-    margin-top: 18px;
+    margin-top: -100px;
 }
 .checkbox-label_i {
     color: white;
@@ -490,7 +517,7 @@ line-height: 28px;
 text-align: center;
 padding-top: 34px;
 }
-.form_end-label, .form-end_input, .checkbox-end {
+.form_end-label, .form-end_input, .checkbox-end, .checkbox-div {
 font-family: "Nunito Sans"; 
 font-weight: normal;
 font-size: 13px;
@@ -543,3 +570,12 @@ margin-top: 52px;
 .footer {
     margin-top: 68px;
 }
+
+
+@media (max-width: 1160px;) {
+    .wrapper, section, nav, .footer {
+        width: 100%;
+    } 
+   
+}
+@media all and
