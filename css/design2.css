@@ -419,7 +419,7 @@ margin-right: 14px;
     padding: 19px 22px;
     margin-left: 200px;
 }
-.box-form_radius_p, .box-form_radius-label, .checkbox, .sale-p, .our_clients-p {
+.box-form_radius_p, .box-form_radius-label, .checkbox, .sale, .our_clients-p {
 font-family: "Nunito Sans";
 font-style: normal;
 font-weight: normal;
@@ -448,24 +448,18 @@ color: #FFFFFF;
     margin-left: 49px;
 }
 .checkbox {
-    margin-top: -100px;
+   /* margin-top: -100px; */
 }
 .checkbox-label_i {
     color: white;
-    
-}
-.sale, .sale-div {
-   display: flex;
-   float: right;
-   margin-top: -15%;
-   
-   
-}
-.sale-div {
+} 
+.sale {
+    display: flex;
+    margin-left: 966px;
     color: #E3B873;
-    margin-right: 60px;
-}
-
+    padding-right: 60px;
+    margin-top: 0px;
+} 
 .our_clients-p {
    color: #363636;
    
@@ -513,9 +507,7 @@ padding-right: 31px;
  margin-left: 0px;
  margin-top: 63px;  
 }
-.end {
-    
-}
+
 .form-end {
     width: 883px;
     height: 445px;
@@ -527,6 +519,12 @@ padding-right: 31px;
 .form_end-div {
     margin-top: 45px;
     margin-left: 181px;
+    display: flex;
+}
+
+.Question {
+    margin-left: 181px;
+    padding-top: 10px;
 }
 .form_end_p {
 font-size: 20px;
@@ -541,15 +539,22 @@ font-size: 13px;
 line-height: 21px;
 color: rgba(255, 255, 255, 0.5);
 }
-.form-end_input, .checkbox-end {
+.form_end-label {
+    margin-left: 50px;
+}
+}
+.form-end_input, .checkbox-end, .form-div_input {
 font-size: 14px;
 line-height: 23px;
 color: none;
 }
+
 .checkbox-end {
     margin-top: 48px;
-    margin-left: 150px;
+    margin-left: 170px;
+
 }
+
 .submit-button_end {
     width: 200px;
     height: 51px;
@@ -588,9 +593,4 @@ margin-top: 52px;
     margin-top: 68px;
 }
 
-
-
-.wrapper, section, nav, .footer {
-        width: 100%;
-} 
    
