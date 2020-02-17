@@ -155,7 +155,7 @@ span {
     line-height: 37px;
     letter-spacing: -0.07em;
     color: #E3B873;
-    margin-top: 176px;
+    margin-top: 146px;
     margin-left: 135px;
 }
 .sectiontwoul {
@@ -179,9 +179,16 @@ margin-right: 60px;
     
 }
 .chairs {
-   float: right;
-   margin-top: 176px;
-   margin-right: 100px;
+ display: flex;  
+}
+.chairs-div_div {
+    display: flex;
+   
+}
+.chairs-div {
+    display: flex;
+    justify-content: space-between;
+}
 }
 .sectiontwop {
     margin-top: 34px;
