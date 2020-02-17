@@ -113,7 +113,8 @@ a:hover{
     position: relative;
     z-index: 1;
 }
-.title, .sectiontwoul, .completed, .tablerow, .online, .h4, .from-div, .figure, .form_end_p {
+.title, .sectiontwoul, .completed, .tablerow, .online, .h4, .from-div, .figure, 
+.form_end_p, .tablerow-repair, .tablerow-repair_cost {
     margin: 0;
     font-family: "Yeseva One";
     font-style: normal;
@@ -147,15 +148,13 @@ span {
 }
 .sectiontwo {
     background-color: black;
-   
-    
 }
+
 .completed {
     font-size: 27px;
     line-height: 37px;
     letter-spacing: -0.07em;
     color: #E3B873;
-    margin-top: 146px;
     margin-left: 135px;
 }
 .sectiontwoul {
@@ -179,16 +178,17 @@ margin-right: 60px;
     
 }
 .chairs {
- display: flex;  
+display: flex;
+margin-top: 176px;
+}
+.div-completed {
+    margin-right: 50px;
+}
+.chairs-div {
+    margin-top: 42px;
 }
 .chairs-div_div {
     display: flex;
-   
-}
-.chairs-div {
-    display: flex;
-    justify-content: space-between;
-}
 }
 .sectiontwop {
     margin-top: 34px;
@@ -198,7 +198,7 @@ margin-right: 60px;
 .table, .transition {
 margin-left: 135px;
 }
-.tablerow, .textrow {
+.tablerow, .textrow, .tablerow-repair, .tablerow-repair_cost {
     font-size: 22px;
     line-height: 25px;
     text-align: left;
@@ -212,10 +212,19 @@ th {
    color: white;
    font-size: 16px;
 }
+.tablerow, .tablerow-repair, .tablerow-repair_cost {
+    margin-left: 135px;
+    margin-bottom: 10px;
+}
+.tablerow-repair {
+    margin-top: 34px;
+}
+.tablerow-repair_cost {
+    margin-top: 54px;
+}
 .transition {
     color: white;
     display: flex;
-    margin-top: 60px;
     font-size: 20px;
     padding-bottom: 40%;
     
