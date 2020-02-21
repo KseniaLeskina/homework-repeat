@@ -1,9 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-   
-    
 }
+
     @font-face {
         font-family: "Nunito Sans";
         src: url('../fonts/fonts/Nunito_Sans.woff'),
@@ -19,10 +18,11 @@ body * {
     box-sizing: border-box;
 }
 
-.wrapper, .hero, .sectiontwo, .section-online_control, .TYPES-OF_REPAIR, .our_clients-section, .end, .footer {
+.wrapper {
     max-width: 1440px;
     margin: 0 auto;
 }
+
 
 .button, .calculate, .submit-button, .from, .submit-button_form, .submit-button, .submit-button_end {
     background: #E3B873;
@@ -181,6 +181,9 @@ margin-right: 60px;
 display: flex;
 margin-top: 176px;
 }
+.chairs-none {
+    display: none;
+}
 .div-completed {
     margin-right: 50px;
 }
@@ -189,6 +192,9 @@ margin-top: 176px;
 }
 .chairs-div_div {
     display: flex;
+}
+.chairs-div_none {
+   
 }
 .sectiontwop {
     margin-top: 34px;
@@ -255,8 +261,9 @@ th {
     margin-left: 680px;
 }
 .girl {
-    margin-top: 31px;
+    margin-top: 51px;
     margin-left: 311px;
+    
     }
 .camera-girl {
     margin-top: 63px;
@@ -569,6 +576,7 @@ color: none;
     position: relative;
     z-index: -1;
     background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
+    
 }
 .section-div_end-p {
 font-family: "Yeseva One";
@@ -589,6 +597,10 @@ margin-top: 52px;
     margin-top: -580px;
     margin-left: 260px;
 }
+.map-none {
+    display: none;
+}
+
 .footer {
     margin-top: 68px;
 }

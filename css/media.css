@@ -1,0 +1,213 @@
+@media only screen and (max-width:1440px) {
+    .header-navigation__item, .button {
+        display: none;
+    }  
+    .logo, .header-navigation__itemtel {
+        font-size: 10px;
+        text-transform: uppercase;
+        margin: 18px;
+        text-decoration: none;
+    }
+.title {
+    font-size: 23px;
+    line-height: 31px;
+    margin: 30px;
+}
+.herop {
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 30px;
+}
+.calculate, .submit {
+    width: 339px;
+    height: 51px;
+    margin: 18px;
+    cursor: pointer;
+}
+.completed {
+     font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.07em;
+    margin-top: -300px;
+    margin-right: 100px;
+    margin-left: 0px;
+}
+.sectiontwop {
+    font-size: 10px;
+    line-height: 17px;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 60px;
+    margin-top: 22px;
+}
+.chairs-none {
+    margin: 36px 18px;
+    display: block;
+}
+.chairs-div_div {
+    margin-top: 0px;
+    text-align: left;
+    margin-bottom: 100px;
+}
+.chairs-div_none {
+    display: none;
+}
+.tablerow, .tablerow-repair, .tablerow-repair_cost {
+    margin-left: 18px;
+    font-size: 14px;
+    line-height: 19px;
+
+}
+.textrow {
+    margin-left: 18px; 
+    font-size: 11px;    
+    line-height: 15px;
+
+}
+.tablerow-repair_cost {
+    margin-top: 52px;
+}
+.transition {
+    display: none;
+}
+.online {
+    margin-top: 300px;
+}
+.camera {
+    margin-left: 150px;
+}
+.girl {
+    margin-top: 40px;
+    margin-left: 0px;
+    
+}
+.section-online_control {
+    background-color: black;
+}
+.camera-girl {
+    margin-left: 160px;
+    margin-top: 28px;
+}
+.camera-girl_text {
+    font-size: 12px;
+    line-height: 19px;
+    margin-top: 22px;
+    margin-left: 18px;
+    color: #FFFFFF;
+}
+.form {
+    margin-top: 61px;
+    margin-left: 18px;
+    display: block;
+
+}
+.label {
+    font-size: 11px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 18px;
+}
+br {
+    display: none;
+}
+.form-div_input {
+    font-size: 14px;
+    line-height: 19px;
+    background-color: black;
+    color: white;
+    border-top: black;
+    border-left: black;
+    border-right: black;
+    border-bottom: 0.5px solid #FFFFFF;
+}
+.order {
+    display: flex;
+}
+.checkbox-div {
+    order: 2;
+}
+.checkbox {
+    margin-left: 18px;
+    margin-top: 26px;
+}
+.checkbox-input {
+    margin-left: 0px;
+}
+.checkbox-label {
+    color: white;
+    font-size: 14px;
+    line-height: 23px;
+}
+.online-1 {
+    font-size: 22px;
+    line-height: 30px;
+}
+.instrument {
+    margin-left: 130px;
+    
+}
+.box-TYPES-OF_REPAIR {
+    display: block;
+} 
+.redecorating-div, .Overhaul-div, .Designer-Repair_div  {
+    margin-left: 0px;
+    margin-top: -130px;
+}
+.from {
+    margin-left: 0px;
+    margin-top: -25px;
+    margin-bottom: 60px;
+}
+.box-form, .sale, .our_clients-section {
+    display: none;
+}
+.end {
+    background-color: black;
+}
+.form-end {
+    margin: 0px;
+    width: auto;
+}
+.form_end_p {
+   text-align: left;
+   margin-bottom: 50px;
+   margin-left: 60px;
+}
+.form_end-div, .Question {
+    margin-left: 0px;
+    display: block;
+}
+.form-end_input {
+    margin-bottom: 60px;
+    color: white;
+    background-color: black;
+    border-bottom: 1px solid rgba(231, 231, 231, 0.3);
+}
+.checkbox-end {
+    margin-top: 0px;
+    margin-left: 18px;
+}
+.form-div-end {
+    margin-top: 67px;
+    margin-left: 18px;
+}
+.submit-button_end {
+    width: 340;
+    height: 51;
+}
+.section-div_end {
+    display: none;
+}
+.map {
+   display: none;
+}
+.map-none {
+  margin-top: 50px;
+  margin-left: 18px;
+}
+
+
+
+
+}  
