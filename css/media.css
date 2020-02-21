@@ -1,4 +1,9 @@
-@media only screen and (max-width:1440px) {
+@media only screen and (max-width: 1440px) {
+    body {
+        max-width: 375px;
+        margin: 0;
+        box-sizing: border-box;
+    }
     .header-navigation__item, .button {
         display: none;
     }  
