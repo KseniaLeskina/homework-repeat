@@ -34,7 +34,7 @@
     line-height: 30px;
     text-align: center;
     letter-spacing: -0.07em;
-    margin-top: -300px;
+    margin-top: -60px;
     margin-right: 100px;
     
 }
@@ -46,10 +46,15 @@
     margin-right: 60px;
     margin-top: 22px;
 }
+.sectiontwoliadmiral, .sectiontwoli, .sectiontwolipatriotic   {
+    display: none;
+    margin-left: 0px;
+}
 .chairs-none {
     margin: 36px 18px;
     display: block;
 }
+
 .chairs-div_div {
     margin-top: 0px;
     text-align: left;
@@ -57,6 +62,9 @@
 }
 .chairs-div_none {
     display: none;
+}
+.div-completed {
+    margin-right: 0px;
 }
 .tablerow, .tablerow-repair, .tablerow-repair_cost {
     margin-left: 18px;
@@ -83,10 +91,12 @@
     margin-left: 150px;
 }
 .girl {
-    margin-top: 40px;
+  display: none;
+}
+.girl-none {
+    display: block;
     margin-left: 18px;
-    
-    
+    opacity: 40%;
 }
 .section-online_control {
     background-color: black;
@@ -101,6 +111,10 @@
     margin-top: 22px;
     margin-left: 18px;
     color: #FFFFFF;
+}
+.redecorating-img, .Overhaul-img, .Designer-Repair-img {
+    width: 340;
+    height: 365;
 }
 .form {
     margin-top: 61px;
@@ -153,8 +167,13 @@ br {
     margin-left: 130px;
     
 }
+.sectoin-TYPES-OF_REPAIR {
+ max-width: 375px;
+}
+
 .box-TYPES-OF_REPAIR {
     display: block;
+    
 } 
 .redecorating-div, .Overhaul-div, .Designer-Repair_div  {
     margin-left: 0px;
@@ -198,12 +217,22 @@ br {
     margin-top: 67px;
     margin-left: 18px;
 }
-.submit-button_end {
-    width: 340;
-    height: 51;
-}
 .section-div_end {
     display: none;
+}
+.section-div_end-p, .section-div_end-img {
+    display: none;
+}
+.section-div_end-none, .section-div_end-img_none {
+    display: block;
+}
+.section-div_end-img_none {
+    margin-left: 139px;
+}
+.section-div_end-none {
+    font-size: 16px;
+    line-height: 25px;
+
 }
 .map {
    display: none;
@@ -213,8 +242,10 @@ br {
   margin-left: 18px;
   display: block;
 }
+.footer {
+    background-color: black;
+    margin-top: auto;
+}
 
 
 
-
-}  

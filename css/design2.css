@@ -24,7 +24,7 @@ body * {
 }
 
 
-.button, .calculate, .submit-button, .from, .submit-button_form, .submit-button, .submit-button_end {
+.button, .calculate, .submit-button, .from, .submit-button_form, .submit-button, .submit-button_end, .submit-button_none {
     background: #E3B873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     border-radius: 2px;
@@ -265,6 +265,9 @@ th {
     margin-left: 311px;
     
     }
+    .girl-none {
+        display: none;
+    }
 .camera-girl {
     margin-top: 63px;
     margin-left: 690px;
@@ -311,14 +314,17 @@ margin: 0px;
 }
 .TYPES-OF_REPAIR {
    margin-top: 76px;
+   width: 100%;
    
 }
+
 .online-1 {
     color: black;
 }
 .box-TYPES-OF_REPAIR{
     display: flex;
     justify-content: space-around;
+   
 }
 .redecorating, .Overhaul, .Designer-Repair {
    
@@ -334,6 +340,8 @@ margin: 0px;
     height: 286px;
    flex-direction: column;
 }
+
+
 .h4 {   
 text-transform: none;
 font-size: 18px;
@@ -561,12 +569,19 @@ color: none;
     margin-left: 170px;
 
 }
-
+.submit-button_none {
+    width: 340;
+    height: 51;
+}
 .submit-button_end {
     width: 200px;
     height: 51px;
     
 }
+.form-div-none, .submit-button_none {
+    display: none;
+}
+
 .form-div-end {
     margin-top: 40px;
     margin-left: 341px;
@@ -578,7 +593,7 @@ color: none;
     background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
     
 }
-.section-div_end-p {
+.section-div_end-p, .section-div_end-none {
 font-family: "Yeseva One";
 font-style: normal;
 font-weight: normal;
@@ -588,6 +603,9 @@ text-align: center;
 text-transform: uppercase;
 color: #E3B873;
 margin-top: 52px;
+}
+.section-div_end-none, .section-div_end-img_none {
+    display: none;
 }
 .section-div_end-img {
     margin-top: 26px;
