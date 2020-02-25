@@ -35,7 +35,7 @@
     text-align: center;
     letter-spacing: -0.07em;
     margin-top: -60px;
-    margin-right: 100px;
+    margin-right: 120px;
     
 }
 .sectiontwop {
@@ -50,8 +50,11 @@
     display: none;
     margin-left: 0px;
 }
+.chairs {
+    margin-top: 96px;
+}
 .chairs-none {
-    margin: 36px 18px;
+    
     display: block;
 }
 
@@ -63,9 +66,7 @@
 .chairs-div_none {
     display: none;
 }
-.div-completed {
-    margin-right: 0px;
-}
+
 .tablerow, .tablerow-repair, .tablerow-repair_cost {
     margin-left: 18px;
     font-size: 14px;
@@ -112,15 +113,27 @@
     margin-left: 18px;
     color: #FFFFFF;
 }
+.box-TYPES-OF_REPAIR {
+    margin-left: 18px;
+}
 .redecorating-img, .Overhaul-img, .Designer-Repair-img {
-    width: 340;
-    height: 365;
+    width: 340px;
+    height: 365px;
 }
 .form {
-    margin-top: 61px;
+    margin-top: 30px;
     margin-left: 18px;
     display: block;
-
+}
+.form-div {
+    padding: 15px;
+    margin-left: 0px;
+}
+.submit-button {
+    width: 319px;
+    height: 51px;
+    
+    
 }
 .label {
     font-size: 11px;
@@ -149,7 +162,7 @@ br {
 }
 .checkbox {
     margin-left: 18px;
-    margin-top: 26px;
+    margin-top: -50px;
 }
 .checkbox-input {
     margin-left: 0px;
@@ -213,6 +226,7 @@ br {
     margin-top: 0px;
     margin-left: 18px;
 }
+
 .form-div-end {
     margin-top: 67px;
     margin-left: 18px;
@@ -234,11 +248,15 @@ br {
     line-height: 25px;
 
 }
+.submit-button_end {
+    width: 340px;
+    height: 51px;
+}
 .map {
    display: none;
 }
 .map-none {
-  margin-top: 50px;
+  margin-top: 250px;
   margin-left: 18px;
   display: block;
 }
@@ -246,6 +264,3 @@ br {
     background-color: black;
     margin-top: auto;
 }
-
-
-

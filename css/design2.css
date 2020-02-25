@@ -60,7 +60,7 @@ body * {
 .header, .footer {
     background-color: black;
     }
-.header-content{
+.header-content, .header-content-footer{
     display: flex;
     justify-content: space-between;
     height: 83px;
@@ -69,6 +69,7 @@ body * {
     line-height: 15px;
     font-family: "Nunito Sans";
 }
+
 .header-navigation, .sectiontwoul {
     list-style: none;
     display: flex;
@@ -314,7 +315,7 @@ margin: 0px;
 }
 .TYPES-OF_REPAIR {
    margin-top: 76px;
-   width: 100%;
+   
    
 }
 
