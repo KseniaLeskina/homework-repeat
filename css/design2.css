@@ -39,20 +39,30 @@ body * {
     cursor: default;
 }
 .calculate, .submit {
-    padding: 19px 20px;
+    padding: 19px 23px;
     cursor: pointer;
-    
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    color: white;
+    width: 207px;
+    height: 51px;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
 }
 .calculate {
     margin-right: 20px;
     margin-left: 135px;
 }
-.submit {
-    background-color: transparent;
-    border: 1px solid #FFFFFF;
-    color: white;
-}
 
+.calculate:hover {
+border-color: transparent;
+background-color: #E3B873;
+}
+.submit:hover {
+    border-color: transparent;
+    background-color: #E3B873;
+}
 .logo{
     color: #E3B873;
     
@@ -167,15 +177,15 @@ span {
 }
 .sectiontwoliadmiral {
 margin-top: 107px;
-margin-left: 570px;
+margin-left: 670px;
 margin-right: 60px;
 
 
 }
 .sectiontwoli, .sectiontwolipatriotic {
-    text-align: right;
+    
     margin-top: 107px;
-    margin-right: 60px;
+    margin-right: 40px;
     
 }
 .chairs {
@@ -224,7 +234,7 @@ th {
     margin-bottom: 10px;
 }
 .tablerow-repair {
-    margin-top: 34px;
+    margin-top: 36px;
 }
 .tablerow-repair_cost {
     margin-top: 54px;
