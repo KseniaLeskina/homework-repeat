@@ -633,5 +633,14 @@ margin-top: 52px;
 .footer {
     margin-top: 68px;
 }
-
-   
+.dot {
+    cursor: pointer;
+    height: 9.5px;
+    width: 9.5px;
+    margin: 0 4px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+.active, .dot:hover {
+    background-color: #717171;   
