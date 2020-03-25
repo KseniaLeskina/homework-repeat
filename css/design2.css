@@ -189,8 +189,12 @@ margin-right: 60px;
     
 }
 .chairs {
-display: flex;
-margin-top: 176px;
+display: block;
+margin-top: 58px;
+}
+.slider {
+    margin-left: 50px;
+    margin-top: -220px;
 }
 .chairs-none {
     display: none;
@@ -244,7 +248,7 @@ th {
     display: flex;
     font-size: 20px;
     padding-bottom: 40%;
-    
+    margin-left: 137px;
 }
 .back-arrow {
     padding-right: 10px;
@@ -643,4 +647,5 @@ margin-top: 52px;
     display: inline-block;
 }
 .active, .dot:hover {
-    background-color: #717171;   
+    background-color: #717171;  
+} 
