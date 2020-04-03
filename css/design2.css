@@ -207,9 +207,13 @@ margin-top: 58px;
 }
 .chairs-div_div {
     display: flex;
+
 }
 .chairs-div_none {
    
+}
+.chairs-div_media {
+    display: none;
 }
 .sectiontwop {
     margin-top: 34px;
@@ -646,6 +650,12 @@ margin-top: 52px;
     border-radius: 50%;
     display: inline-block;
 }
-.active, .dot:hover {
+.active .dot:hover {
     background-color: #717171;  
 } 
+
+.active, .slide:hover {
+    background-color: black;
+    color: #E3B873;
+    
+}
