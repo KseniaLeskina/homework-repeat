@@ -39,7 +39,8 @@
     text-align: center;
     letter-spacing: -0.07em;
     margin-top: -60px;
-    margin-right: 120px;
+    margin-right: 0px;
+    margin-left: 0px;
     
 }
 .sectiontwop {
@@ -47,7 +48,7 @@
     line-height: 17px;
     text-align: center;
     margin-left: 18px;
-    margin-right: 60px;
+    margin-right: 0px;
     margin-top: 22px;
 }
 .sectiontwoliadmiral, .sectiontwoli, .sectiontwolipatriotic   {
@@ -70,7 +71,11 @@
     margin-bottom: 100px;
 }
 .chairs-div_none {
-    display: none;
+   display: none;
+}
+.chairs-div_media {
+    display: block;
+    margin-left: 18px;
 }
 .div-completed {
     width: 360px;
@@ -95,6 +100,7 @@
 }
 .online {
     margin-top: 300px;
+    padding-top: 150px;
 }
 .camera {
     margin-left: 150px;
