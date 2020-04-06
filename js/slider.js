@@ -22,13 +22,13 @@ function showSlides(n) {
       slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
+      dots[i].className = dots[i].className.replace(" active-dot", "");
   }
   for (i = 0; i < slide.length; i++) {
-    slide[i].className = slide[i].className.replace(" active", "");
+    slide[i].className = slide[i].className.replace(" active-slide", "");
 }
   slides[slideIndex-1].style.display = "flex";
-  dots[slideIndex-1].className += " active";
-  slide[slideIndex-1].className += " active";
+  dots[slideIndex-1].className += " active-dot";
+  slide[slideIndex-1].className += " active-slide";
 }
 
